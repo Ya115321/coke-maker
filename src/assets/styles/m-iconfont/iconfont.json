@@ -1,0 +1,51 @@
+{
+  "id": "1514635",
+  "name": "设备报修手机端项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2066010",
+      "name": "维修记录",
+      "font_class": "weixiujilu",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "5603488",
+      "name": "报事报修",
+      "font_class": "baoshibaoxiu",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "5722702",
+      "name": "寝室报修",
+      "font_class": "qinshibaoxiu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "5831366",
+      "name": "完成",
+      "font_class": "wancheng",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "6992715",
+      "name": "故障报修1",
+      "font_class": "guzhangbaoxiu",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "7366875",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
