@@ -147,7 +147,7 @@
             }
         },
         created() {
-            this.initList()
+            // this.initList()
             // this.Obtaincookie()
         },
         methods: {

@@ -16,6 +16,9 @@
       <el-tab-pane label="历史数据" name="fourth">
         <homehistori-caldata></homehistori-caldata>
       </el-tab-pane>
+      <el-tab-pane label="选项值添加" name="customer">
+        <optionvalue></optionvalue>
+      </el-tab-pane>
     </el-tabs>
     <el-dialog title="提示" :visible.sync="delVisible" width="300px" center>
       <div class="del-dialog-cnt">是否退出登录</div>
@@ -31,6 +34,7 @@
     import HomepageTasks from './components/Homepagetasks' // 任务列表
     import NewTasks from './components/Newtasks' // 新增任务
     import HomehistoriCaldata from './components/Homehistoricaldata'
+    import Optionvalue from './components/Optionvalue'
 
     export default {
         name: 'index',
@@ -38,6 +42,7 @@
             HomepageTasks, // 任务列表
             NewTasks, // 新增任务
             HomehistoriCaldata, // 历史数据
+            Optionvalue, // 属性数据新增
         },
         data() {
             return {

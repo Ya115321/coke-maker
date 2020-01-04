@@ -71,17 +71,6 @@
         data() {
             return {
                 tableHeight: 740, // el-table数据定高
-                data: [
-                    {
-                        id: 1
-                    },
-                    {
-                        id: 2
-                    },
-                    {
-                        id: 3
-                    }
-                ],
                 currentPage: 1, // 当前页码
                 pageSize: 10, // 数据显示数量
                 total: 0, // 数据条数
@@ -135,7 +124,7 @@
             }
         },
         created() {
-            this.initList()
+            // this.initList()
         },
         methods: {
             // 当前改变----当前页码改变之后，触发这个函数

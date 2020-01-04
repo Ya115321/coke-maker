@@ -180,10 +180,10 @@
         },
         // 进入页面就请求数据
         created() {
-            this.Specifications(); // 调取规格
-            this.BranchOffice(); // 分公司调取数据
-            this.Productlist(); //  产品列表数据调用
-            this.Customer(); // 客户列表调用
+            // this.Specifications(); // 调取规格
+            // this.BranchOffice(); // 分公司调取数据
+            // this.Productlist(); //  产品列表数据调用
+            // this.Customer(); // 客户列表调用
         },
         // 模板渲染之后调用
         mounted() {
